@@ -4,7 +4,6 @@
 uint16_t pulse = 1.56;
 
 void setup() {
-  // put your setup code here, to run once:
   pinMode(DATA_PIN, OUTPUT);
   char sequence1[] = "8888d1ddd111119dd1f11d11";
   char sequence2[] = "8888e8eee888888ee8e88ec88";
